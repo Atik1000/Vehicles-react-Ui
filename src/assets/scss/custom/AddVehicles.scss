@@ -1,0 +1,107 @@
+.header-info {
+  padding-bottom: 10px;
+  width: 13%;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.switch {
+  color: #fff;
+  width: 90px;
+  border-radius: 15px;
+  margin-left: 14px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.save-btn {
+  background: darkgreen;
+  color: white;
+  border: gainsboro;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: darkgreen;
+	border-color: darkgreen;
+}
+.update-save-btn {
+  background: orange;
+  color: black;
+  border: gainsboro;
+}
+
+.add-btn {
+  // background: mediumblue;
+  border: gainsboro;
+  color: white;
+}
+.edit-header-title {
+  margin-top: 25px;
+}
+
+.edit-save{
+  margin-top:30px !important;
+}
+// Edit Vehicles  
+.acquisition-header {
+	background: #fff;
+	margin-left: 40px;
+	width: 95%;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px -5px #333;
+	padding-bottom: 7px;
+}
+.acquisition-header-title {
+  margin-top: 40px;
+  background: orange;
+  padding: 12px;
+  // margin-left: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+.expense-price-form{
+  display: flex;
+  padding: 0 15px;
+  width: 50% !important;
+}
+.expense-price-form input{
+  margin-right: 15px !important;
+  width: 50% !important;
+}
+.input-group input{
+  width: 50% !important;
+}
+.acquisition-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 30px ;
+  padding-top:30px;
+  margin-bottom: 30px;
+}
+
+
+// Ass Vehicle inspection 
+.headerTitle{
+  background-color: #21BC6C;
+  color: #fff;
+  // padding: 20px;
+  padding:15px ;
+}
+.headerTitle p{
+  margin: 0;
+  padding: 0;
+}
+
+
+.MuiButton-label {
+	width: 100%;
+	display: inherit;
+	align-items: inherit;
+	justify-content: inherit;
+	color: #fff !important;
+	font-weight: bold;
+}

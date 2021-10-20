@@ -1,0 +1,135 @@
+// header btn 
+.btn-success {
+	border: 1px solid #21BC6C;
+	background: #21BC6C;
+	color: #fff;
+	margin-right: 25px !important;
+}
+.pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
+	border-radius: 0% !important;
+}
+.pagination .page-item .page-link {
+	border-radius: 0% !important;
+	margin: 0 2px;
+	color: #797979;
+	padding: 6px 12px;
+}
+.header-top {
+	background: #17a2b8;
+	color: #fff;
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header-top h3 {
+	padding-right: 20px;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.btn-warning:hover {
+	color: #212529;
+	background-color: #F4BC4B;
+	border-color: #F4BC4B;
+}
+.btn-success:hover {
+	color: #fff;
+	background-color: #21BC6C;
+	border-color: #21BC6C;
+}
+.btn-warning {
+	border:1px solid #F4BC4B;
+	color: #000;
+	background: #F4BC4B;
+}
+// .btn-warning:hover {
+// 	border: 1px solid #f4bc4be0;
+// 	color: #000;
+// 	background: #f4bc4be0;
+// }
+.vehicle_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.table tbody td .vehicle_img {
+	width: 100px;
+	height: 80px;
+}
+
+// Select box 
+
+.box select {
+  background-color: #17A2B8;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+td {
+	color: #797979;
+}
+.table > thead > tr > th {
+	border-bottom-width: 1px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #807777;
+	font-weight: 400;
+	padding-bottom: 5px;
+	border-top: none !important;
+	border-bottom: none;
+	text-align: left !important;
+	font-weight: bold !important;
+}
+.box::before {
+//   content: "\f013";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+// .box select option {
+//   padding: 30px;
+// }
+
+
+
+.dashbord_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.dashbord_flex .form-select {
+	padding: 8px;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+// Pagination 
+
+.dashbord-footer {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	border-top: 1px solid #2222;
+	padding-top: 16px;
+}
+.page-link {
+	color: #17A2B8 !important;
+}
